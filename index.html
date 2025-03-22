@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+
+  <button class="showModal">Открыть модальное окно</button>
+
+  <dialog class="modal">
+    <div class="center">
+      <button class="close">X</button>
+    </div>
+
+    <form action="" class="form">
+      <h1>Бесплатная консультация</h1>
+      <p>Оставьте контактные данные, и наш специалист свяжется с вами.</p>
+
+      <div class="box">
+        <h3>Ваше имя</h3>
+        <p>
+          <input type="text" placeholder="Как вас зовут?">
+        </p>
+      </div>
+
+      <div class="box">
+        <h3>Номер телефона</h3>
+        <p>
+          <input type="tel" placeholder="+998">
+        </p>
+      </div>
+
+      <div class="box">
+        <h3>Telegram Username</h3>
+        <p>
+          <input type="text" placeholder="@">
+        </p>
+      </div>
+
+      <button class="btn">Отправить</button>
+
+
+    </form>
+  </dialog>
+
+  <script src="./script.js"></script>
+</body>
+</html>

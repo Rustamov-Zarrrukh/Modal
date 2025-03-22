@@ -1,0 +1,56 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.center {
+  text-align: right;
+}
+.close {
+  color: blue;
+  border: none;
+  border-radius: 5px;
+  width: 20px;
+}
+
+.modal {
+  border: none;
+  border-radius: 20px;
+}
+
+dialog::backdrop {
+  background-color: rgba(0, 0, 0, 0.322);
+  backdrop-filter: blur(2px);
+}
+
+.btn {
+  text-align: center;
+  width:500px;
+  height: 32px;
+  border-radius: 10px;
+  background-color: rgb(0, 183, 255);
+  border: none;
+  color: white;
+}
+
+h1 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 30px;
+  margin-top: 10px;
+  margin-bottom: 0;
+}
+
+p{
+  margin-top: 12px;
+  color: gray;
+  font-size: 16px;
+}
+
+h3 {
+  font-size: 14px;
+  color: gray;
+  margin-bottom: 10px;
+  margin-top: 40px;
+}
+
